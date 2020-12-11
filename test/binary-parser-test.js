@@ -4,7 +4,7 @@ const coreTypes = require('../src/coretypes');
 
 const _ = require('lodash');
 const assert = require('assert-diff');
-const {encodeAccountID} = require('ripple-address-codec');
+const {encodeAccountID} = require('divvy-address-codec');
 const {binary: {makeParser, readJSON}, Field, Amount, Hash160} = coreTypes;
 const {enums: {TransactionType}} = coreTypes;
 const utils = require('./utils');
@@ -125,7 +125,7 @@ function transactionParsingTests() {
       const [field, value] = readField();
       assert.equal(field, Field.TakerPays);
       assert.equal(value.currency.isNative(), true);
-      assert.equal(value.currency.toJSON(), 'XRP');
+      assert.equal(value.currency.toJSON(), 'XDV');
     }
     {
       const [field, value] = readField();

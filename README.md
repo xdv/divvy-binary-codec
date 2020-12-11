@@ -1,5 +1,5 @@
-# ripple-binary-codec
+# divvy-binary-codec
 
-encode/decode to/from the ripple binary serialization format
+encode/decode to/from the divvy binary serialization format
 
-[![NPM](https://nodei.co/npm/ripple-binary-codec.png)](https://www.npmjs.org/package/ripple-binary-codec)
+[![NPM](https://nodei.co/npm/divvy-binary-codec.png)](https://www.npmjs.org/package/divvy-binary-codec)

@@ -6,7 +6,7 @@ function json(object) {
   return JSON.stringify(object);
 }
 
-describe('ripple-binary-codec', function() {
+describe('divvy-binary-codec', function() {
   function makeSuite(name, entries) {
     describe(name, function() {
       entries.forEach((t, test_n) => {

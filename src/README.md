@@ -1,1 +1,1 @@
-# ripple-binary-codec
+# divvy-binary-codec
